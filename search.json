@@ -4,21 +4,133 @@
     "href": "blog.html",
     "title": "Quarto Blog",
     "section": "",
-    "text": "Simple Visualisation\n\n\n\n\n\n\nML\n\n\n\n\n\n\n\n\n\nFeb 14, 2025\n\n\nNipun Batra\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome\n\n\n\n\n\nWelcome Post\n\n\n\n\n\nFeb 14, 2025\n\n\nNipun Batra\n\n\n\n\n\n\nNo matching items"
+    "text": "MKDocs: A Documentation Framework for Developers\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "posts/welcome.html",
-    "href": "posts/welcome.html",
-    "title": "Welcome",
+    "objectID": "posts/blog.html",
+    "href": "posts/blog.html",
+    "title": "MKDocs: A Documentation Framework for Developers",
     "section": "",
-    "text": "Welcome\nHello world, this is my first blog post.\nI can write in markdown\nprint(\"Hello World\")\nI can also write math equations:\n\\[\ny = x^2\n\\]\nI can create lists easily:\n\nOne\nTwo\n\nI can also create numbered lists:\n\nOne\nTwo\n\nOr, create a table:\n\n\n\nName\nAge\n\n\n\n\nAlice\n20\n\n\nBob\n21"
+    "text": "MKDocs is a simple yet powerful static site generator specifically designed for project documentation. It allows developers to create well-structured and visually appealing documentation using Markdown. It is widely used for software projects, open-source tools, and technical guides due to its ease of use and seamless integration with GitHub Pages."
   },
   {
-    "objectID": "posts/visualisation.html",
-    "href": "posts/visualisation.html",
-    "title": "Simple Visualisation",
-    "section": "",
-    "text": "import numpy as np\nimport matplotlib.pyplot as plt\n%matplotlib inline\n%config InlineBackend.figure_format = 'retina'\n\n\nx = np.linspace(0, 10, 100)\ny = np.sin(x)\n\nplt.plot(x, y)"
+    "objectID": "posts/blog.html#simple-easy-to-use",
+    "href": "posts/blog.html#simple-easy-to-use",
+    "title": "MKDocs: A Documentation Framework for Developers",
+    "section": "Simple & Easy-to-Use",
+    "text": "Simple & Easy-to-Use\n\nUses a YAML configuration file (mkdocs.yml) to control the documentation site.\nMarkdown-based (.md files), making it lightweight and readable.\nNo need for HTML or CSS knowledge."
+  },
+  {
+    "objectID": "posts/blog.html#live-preview-with-mkdocs-serve",
+    "href": "posts/blog.html#live-preview-with-mkdocs-serve",
+    "title": "MKDocs: A Documentation Framework for Developers",
+    "section": "Live Preview with mkdocs serve",
+    "text": "Live Preview with mkdocs serve\n\nInstant feedback while editing documentation.\nThe mkdocs serve command starts a local web server with automatic reloading."
+  },
+  {
+    "objectID": "posts/blog.html#markdown-based-documentation",
+    "href": "posts/blog.html#markdown-based-documentation",
+    "title": "MKDocs: A Documentation Framework for Developers",
+    "section": "Markdown-Based Documentation",
+    "text": "Markdown-Based Documentation\n\nSupports headings, lists, tables, links, images, and code blocks.\nNo need to write complex HTML!"
+  },
+  {
+    "objectID": "posts/blog.html#built-in-search-functionality",
+    "href": "posts/blog.html#built-in-search-functionality",
+    "title": "MKDocs: A Documentation Framework for Developers",
+    "section": "Built-in Search Functionality",
+    "text": "Built-in Search Functionality\n\nFull-text search powered by Lunr.js.\nWorks automatically with no extra setup."
+  },
+  {
+    "objectID": "posts/blog.html#customizable-themes-styling",
+    "href": "posts/blog.html#customizable-themes-styling",
+    "title": "MKDocs: A Documentation Framework for Developers",
+    "section": "Customizable Themes & Styling",
+    "text": "Customizable Themes & Styling\n\nBuilt-in themes like readthedocs.\nSupports the modern material theme.\nCustom CSS for further styling."
+  },
+  {
+    "objectID": "posts/blog.html#multi-page-navigation",
+    "href": "posts/blog.html#multi-page-navigation",
+    "title": "MKDocs: A Documentation Framework for Developers",
+    "section": "Multi-Page Navigation",
+    "text": "Multi-Page Navigation\n\nSidebar-style menu for structured docs.\nNavigation controlled via mkdocs.yml."
+  },
+  {
+    "objectID": "posts/blog.html#easy-deployment-github-pages-others",
+    "href": "posts/blog.html#easy-deployment-github-pages-others",
+    "title": "MKDocs: A Documentation Framework for Developers",
+    "section": "Easy Deployment (GitHub Pages & Others)",
+    "text": "Easy Deployment (GitHub Pages & Others)\n\nOne-command deployment to GitHub Pages.\nSupports GitLab Pages, AWS S3, and custom hosting."
+  },
+  {
+    "objectID": "posts/blog.html#extensible-with-plugins",
+    "href": "posts/blog.html#extensible-with-plugins",
+    "title": "MKDocs: A Documentation Framework for Developers",
+    "section": "Extensible with Plugins",
+    "text": "Extensible with Plugins\n\nThird-party plugins enhance functionality.\nExample plugins:\n\nmkdocs-material → A modern theme.\nmkdocs-mermaid2 → Supports diagrams in Markdown."
+  },
+  {
+    "objectID": "posts/blog.html#creating-a-new-mkdocs-project",
+    "href": "posts/blog.html#creating-a-new-mkdocs-project",
+    "title": "MKDocs: A Documentation Framework for Developers",
+    "section": "1️⃣ Creating a New MKDocs Project",
+    "text": "1️⃣ Creating a New MKDocs Project\nmkdocs new my-project\ncd my-project\nExplanation: - Creates a new MKDocs project in my-project. - Moves into the project directory."
+  },
+  {
+    "objectID": "posts/blog.html#running-the-live-preview-server",
+    "href": "posts/blog.html#running-the-live-preview-server",
+    "title": "MKDocs: A Documentation Framework for Developers",
+    "section": "2️⃣ Running the Live Preview Server",
+    "text": "2️⃣ Running the Live Preview Server\nmkdocs serve\nExplanation: - Launches a local web server at http://127.0.0.1:8000/. - Changes update automatically."
+  },
+  {
+    "objectID": "posts/blog.html#basic-mkdocs.yml-configuration",
+    "href": "posts/blog.html#basic-mkdocs.yml-configuration",
+    "title": "MKDocs: A Documentation Framework for Developers",
+    "section": "3️⃣ Basic mkdocs.yml Configuration",
+    "text": "3️⃣ Basic mkdocs.yml Configuration\nsite_name: My Project Docs  \ntheme: readthedocs  \nnav:\n  - Home: index.md\n  - Installation: install.md\n  - Features: features.md\nExplanation: - Defines site title and theme. - Controls navigation structure."
+  },
+  {
+    "objectID": "posts/blog.html#changing-the-theme-to-material-for-mkdocs",
+    "href": "posts/blog.html#changing-the-theme-to-material-for-mkdocs",
+    "title": "MKDocs: A Documentation Framework for Developers",
+    "section": "4️⃣ Changing the Theme to “Material for MKDocs”",
+    "text": "4️⃣ Changing the Theme to “Material for MKDocs”\npip install mkdocs-material\nUpdate mkdocs.yml:\ntheme: material\nExplanation: - Installs the material theme for a modern UI."
+  },
+  {
+    "objectID": "posts/blog.html#adding-a-custom-page",
+    "href": "posts/blog.html#adding-a-custom-page",
+    "title": "MKDocs: A Documentation Framework for Developers",
+    "section": "5️⃣ Adding a Custom Page",
+    "text": "5️⃣ Adding a Custom Page\nCreate docs/about.md, then update mkdocs.yml:\nnav:\n  - Home: index.md\n  - About: about.md\nExplanation: - Adds a new page accessible from navigation."
+  },
+  {
+    "objectID": "posts/blog.html#adding-a-table-in-markdown",
+    "href": "posts/blog.html#adding-a-table-in-markdown",
+    "title": "MKDocs: A Documentation Framework for Developers",
+    "section": "6️⃣ Adding a Table in Markdown",
+    "text": "6️⃣ Adding a Table in Markdown\n# Feature Comparison  \n| Feature        | MKDocs | Sphinx |\n|---------------|--------|--------|\n| Markdown Support | ✅    | ✅    |\n| Live Preview  | ✅    | ❌    |\n| Easy Deployment | ✅    | ❌    |\nExplanation: - Uses | to define columns. - ✅ and ❌ improve readability."
+  },
+  {
+    "objectID": "posts/blog.html#adding-code-blocks",
+    "href": "posts/blog.html#adding-code-blocks",
+    "title": "MKDocs: A Documentation Framework for Developers",
+    "section": "7️⃣ Adding Code Blocks",
+    "text": "7️⃣ Adding Code Blocks\ndef hello():\n    print(\"Hello, MKDocs!\")\nExplanation: - Triple backticks define a code block. - Language (e.g., python, bash) enables syntax highlighting."
+  },
+  {
+    "objectID": "posts/blog.html#deploying-documentation-to-github-pages",
+    "href": "posts/blog.html#deploying-documentation-to-github-pages",
+    "title": "MKDocs: A Documentation Framework for Developers",
+    "section": "8️⃣ Deploying Documentation to GitHub Pages",
+    "text": "8️⃣ Deploying Documentation to GitHub Pages\nmkdocs gh-deploy\nExplanation: - Builds and deploys the site to GitHub Pages."
+  },
+  {
+    "objectID": "posts/blog.html#building-the-documentation-as-static-html",
+    "href": "posts/blog.html#building-the-documentation-as-static-html",
+    "title": "MKDocs: A Documentation Framework for Developers",
+    "section": "9️⃣ Building the Documentation as Static HTML",
+    "text": "9️⃣ Building the Documentation as Static HTML\nmkdocs build\nExplanation: - Generates static HTML in the site/ folder. - Ready for hosting on AWS, Netlify, or a private server."
   },
   {
     "objectID": "index.html",
