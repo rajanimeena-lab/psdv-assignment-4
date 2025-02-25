@@ -11,7 +11,21 @@
     "href": "posts/blog.html",
     "title": "MKDocs: A Documentation Framework for Developers",
     "section": "",
-    "text": "MKDocs is a simple yet powerful static site generator specifically designed for project documentation. It allows developers to create well-structured and visually appealing documentation using Markdown. It is widely used for software projects, open-source tools, and technical guides due to its ease of use and seamless integration with GitHub Pages."
+    "text": "Hello and welcome to my blog, where I share insights, tutorials, and thoughts on [your blog’s main theme, e.g., programming, technology, travel, etc.]. Whether you’re a beginner or an expert, you’ll find something valuable here.\n\n\n\nTutorials & Guides – Step-by-step explanations on various topics.\nProject Showcases – My personal and open-source projects.\nTips & Tricks – Useful hacks to boost productivity.\nPersonal Thoughts – Reflections on industry trends and experiences.\n\n\n\n\nGot a question or suggestion? Feel free to reach out through [your contact details or social media links].\nHappy reading! 🎉"
+  },
+  {
+    "objectID": "posts/blog.html#what-youll-find-here",
+    "href": "posts/blog.html#what-youll-find-here",
+    "title": "MKDocs: A Documentation Framework for Developers",
+    "section": "",
+    "text": "Tutorials & Guides – Step-by-step explanations on various topics.\nProject Showcases – My personal and open-source projects.\nTips & Tricks – Useful hacks to boost productivity.\nPersonal Thoughts – Reflections on industry trends and experiences."
+  },
+  {
+    "objectID": "posts/blog.html#stay-connected",
+    "href": "posts/blog.html#stay-connected",
+    "title": "MKDocs: A Documentation Framework for Developers",
+    "section": "",
+    "text": "Got a question or suggestion? Feel free to reach out through [your contact details or social media links].\nHappy reading! 🎉"
   },
   {
     "objectID": "posts/blog.html#simple-easy-to-use",
