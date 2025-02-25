@@ -15,6 +15,7 @@ body {
     padding: 30px;
     border-radius: 12px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 1s ease-in-out;
   }
   
   /* Title Styling */
@@ -30,6 +31,7 @@ body {
     font-size: 1.2em;
     text-align: center;
     margin-bottom: 30px;
+    line-height: 1.6;
   }
   
   /* Sections */
@@ -39,12 +41,18 @@ body {
     margin-top: 20px;
     border-left: 5px solid #007bff;
     border-radius: 8px;
+    transition: transform 0.3s ease-in-out;
+  
+    &:hover {
+      transform: scale(1.02);
+    }
   }
   
   /* Headings */
   h2 {
     color: #007bff;
     margin-bottom: 15px;
+    text-align: center;
   }
   
   /* List Items */
@@ -55,15 +63,28 @@ body {
   
   ul li {
     background: #ffffff;
-    padding: 10px;
-    margin: 8px 0;
+    padding: 12px;
+    margin: 10px 0;
     border-radius: 5px;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    font-size: 1.1em;
   }
   
   /* Footer Styling */
   .homepage-section p {
     font-size: 1.1em;
     text-align: center;
+  }
+  
+  /* Fade-in Animation */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
   }
   
