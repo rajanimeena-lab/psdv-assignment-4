@@ -3,14 +3,15 @@ project:
   output-dir: docs
 
 website:
-  title: 'mkdocs'
+  title: 'MKDocs'
   navbar:
-    right:
+    left:
       - href: index.qmd
         text: Home
       - href: blog.qmd
         text: Blog
-
+  page-footer: 
+    center: "© 2024 Your Name. All rights reserved."
 
 format:
   html:
@@ -20,7 +21,6 @@ format:
     mainfont: "Roboto"
     code-copy: true
     code-overflow: wrap
-
 
 execute:
   freeze: auto
