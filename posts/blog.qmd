@@ -165,6 +165,7 @@ MKDocs is a simple yet powerful tool for creating well-structured documentation 
 With built-in themes, search functionality, and GitHub Pages integration, MKDocs simplifies documentation management without requiring web development expertise. Its customization options and plugins enhance flexibility, making it suitable for various projects.
 
 If you need a fast, efficient, and user-friendly documentation tool, **MKDocs is an excellent choice**. Try it out, explore themes, and deploy your docs effortlessly! 🚀
+
 # **References**
 - [YouTube Tutorial](https://www.youtube.com/watch?v=M03lYxXoGpc&list=PLftoLyLEwECBfia83pVwQCGX_Of3S5x-v&index=1)
 - [GitHub Quarto Template](https://github.com/nipunbatra/quarto-template)
