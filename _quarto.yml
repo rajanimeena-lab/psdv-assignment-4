@@ -24,3 +24,9 @@ format:
 
 execute:
   freeze: auto
+
+  format:
+  html:
+    theme: litera
+    css: styles.css
+

@@ -1,17 +1,69 @@
-/*-- scss:defaults --*/
-
-@import 'https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap';
-
-$font-family: "Roboto", sans-serif;
-$font-family-serif: "Roboto", sans-serif;
-
-/*-- scss:rules --*/
-kbd,
-.kbd {
-    background-color: #f6f5f5 !important;
-}
-
-.navbar {
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-}
+/* General Page Styling */
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Homepage Container */
+  .homepage-container {
+    max-width: 900px;
+    margin: 50px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Title Styling */
+  .homepage-title {
+    text-align: center;
+    font-size: 2.5em;
+    color: #007bff;
+    margin-bottom: 20px;
+  }
+  
+  /* Intro Section */
+  .homepage-intro {
+    font-size: 1.2em;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  /* Sections */
+  .homepage-section {
+    background: #f0f0f0;
+    padding: 20px;
+    margin-top: 20px;
+    border-left: 5px solid #007bff;
+    border-radius: 8px;
+  }
+  
+  /* Headings */
+  h2 {
+    color: #007bff;
+    margin-bottom: 15px;
+  }
+  
+  /* List Items */
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  ul li {
+    background: #ffffff;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Footer Styling */
+  .homepage-section p {
+    font-size: 1.1em;
+    text-align: center;
+  }
+  
