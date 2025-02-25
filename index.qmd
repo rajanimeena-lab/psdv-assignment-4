@@ -1,6 +1,6 @@
 Welcome to My Blog! 🚀
 
-Hello and welcome to my blog, where I share insights, tutorials, and thoughts on [your blog’s main theme, e.g., programming, technology, travel, etc.]. Whether you're a beginner or an expert, you'll find something valuable here.
+Hello and welcome to my blog, where I share insights, tutorials, and thoughts on  programming. Whether you're a beginner or an expert, you'll find something valuable here.
 
 📌 What You’ll Find Here
 Tutorials & Guides – Step-by-step explanations on various topics.
