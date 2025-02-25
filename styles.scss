@@ -1,14 +1,19 @@
+/*-- scss:defaults --*/
+$primary-color: #007bff;
+$background-color: #f9f9f9;
+
+/*-- scss:rules --*/
 /* General Page Styling */
 body {
     font-family: "Roboto", sans-serif;
-    background-color: #f9f9f9;
+    background-color: $background-color;
     color: #333;
     margin: 0;
     padding: 0;
-  }
-  
-  /* Homepage Container */
-  .homepage-container {
+}
+
+/* Homepage Container */
+.homepage-container {
     max-width: 900px;
     margin: 50px auto;
     background: white;
@@ -16,75 +21,79 @@ body {
     border-radius: 12px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
     animation: fadeIn 1s ease-in-out;
-  }
-  
-  /* Title Styling */
-  .homepage-title {
+}
+
+/* Title Styling */
+.homepage-title {
     text-align: center;
     font-size: 2.5em;
-    color: #007bff;
+    color: $primary-color;
     margin-bottom: 20px;
-  }
-  
-  /* Intro Section */
-  .homepage-intro {
+}
+
+/* Intro Section */
+.homepage-intro {
     font-size: 1.2em;
     text-align: center;
     margin-bottom: 30px;
     line-height: 1.6;
-  }
-  
-  /* Sections */
-  .homepage-section {
+}
+
+/* Sections */
+.homepage-section {
     background: #f0f0f0;
     padding: 20px;
     margin-top: 20px;
-    border-left: 5px solid #007bff;
+    border-left: 5px solid $primary-color;
     border-radius: 8px;
     transition: transform 0.3s ease-in-out;
-  
+
     &:hover {
-      transform: scale(1.02);
+        transform: scale(1.02);
     }
-  }
-  
-  /* Headings */
-  h2 {
-    color: #007bff;
+}
+
+/* Headings */
+h2 {
+    color: $primary-color;
     margin-bottom: 15px;
     text-align: center;
-  }
-  
-  /* List Items */
-  ul {
+}
+
+/* List Items */
+ul {
     list-style-type: none;
     padding: 0;
-  }
-  
-  ul li {
+}
+
+ul li {
     background: #ffffff;
     padding: 12px;
     margin: 10px 0;
     border-radius: 5px;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
     font-size: 1.1em;
-  }
-  
-  /* Footer Styling */
-  .homepage-section p {
+}
+
+/* Footer Styling */
+.homepage-section p {
     font-size: 1.1em;
     text-align: center;
-  }
-  
-  /* Fade-in Animation */
-  @keyframes fadeIn {
+}
+
+/*-- scss:mixins --*/
+@mixin fadeInAnimation {
     from {
-      opacity: 0;
-      transform: translateY(-10px);
+        opacity: 0;
+        transform: translateY(-10px);
     }
     to {
-      opacity: 1;
-      transform: translateY(0);
+        opacity: 1;
+        transform: translateY(0);
     }
-  }
-  
+}
+
+/* Fade-in Animation */
+@keyframes fadeIn {
+    @include fadeInAnimation;
+}
