@@ -3,8 +3,6 @@ title: "MKDocs: A Documentation Framework for Developers"
 format: html
 ---
 
-
-
 # **Introduction**
 MKDocs is a simple yet powerful static site generator specifically designed for project documentation. It allows developers to create well-structured and visually appealing documentation using Markdown. It is widely used for software projects, open-source tools, and technical guides due to its ease of use and seamless integration with GitHub Pages.
 
